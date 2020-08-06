@@ -1,0 +1,143 @@
+INFO-FLOW: Workspace /home/inje/workspace/HLS_MIPS_module_RF/solution1 opened at Thu Aug 06 14:11:32 KST 2020
+Execute     config_clock -quiet -name default -period 10 -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+Execute     open_platform DefaultPlatform 
+Execute     import_lib /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/virtexuplus/virtexuplus 
+Execute       source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/common/xilinx.lib 
+Execute         source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/xilinx_interface.lib 
+Execute           source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/plb46.lib 
+Execute           source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/fsl.lib 
+Execute           source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/axi4.lib 
+Execute           source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/maxi.lib 
+Execute           source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/saxilite.lib 
+Execute         source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/common/dsp48.lib 
+Execute         source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/ip/xfir.lib 
+Execute         source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/ip/xfft.lib 
+Execute         source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/ip/dds_compiler.lib 
+Execute       source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/common/xilinx.hlp 
+Execute         source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/common/target_info.tcl 
+Execute         source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute           source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/maxi.hlp 
+Execute           source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/saxilite.hlp 
+Execute         source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/common/dsp48.hlp 
+Execute       source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/virtexuplus/dsp48e2.hlp 
+Execute       source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/common/xilinx.hlp 
+Execute         source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/common/target_info.tcl 
+Execute         source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute           source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/maxi.hlp 
+Execute           source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/saxilite.hlp 
+Execute         source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/common/dsp48.hlp 
+Execute     source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/virtexuplus/virtexuplus.gen 
+Execute       source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/common/xilinx.gen 
+Execute         source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/plb46.gen 
+Execute         source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/fsl.gen 
+Execute         source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/axi4.gen 
+Execute         source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/saxilite.gen 
+Execute           source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/maxi.gen 
+Execute         source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/ip/util.gen 
+Execute         source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/ip/xfft.gen 
+Command         ap_source done; 0.2 sec.
+Execute         source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/ip/xfir.gen 
+Execute         source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/common/dsp48.gen 
+Command       ap_source done; 0.29 sec.
+Command     ap_source done; 0.3 sec.
+Execute     open_platform DefaultPlatform 
+Execute     import_lib /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/virtexuplus/virtexuplus_fpv7 
+Execute       source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/common/xilinx_fp.lib 
+Execute       source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/common/xilinx_fp.hlp 
+Execute         source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/common/xilinx.hlp 
+Execute           source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/common/target_info.tcl 
+Execute           source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute             source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/maxi.hlp 
+Execute             source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/saxilite.hlp 
+Execute           source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/common/dsp48.hlp 
+Execute     source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/virtexuplus/virtexuplus_fpv7.gen 
+Execute       source /tools/Xilinx/Vivado/2019.2/common/technology/xilinx/common/xilinx_fp.gen 
+Execute     set_part xcu200-fsgd2104-2-e 
+Execute       ap_part_info -name xcu200-fsgd2104-2-e -data single -quiet 
+Command       ap_part_info done; 2.85 sec.
+Execute       ap_part_info -name xcu200-fsgd2104-2-e -data info 
+Execute       add_library xilinx/virtexuplus/virtexuplus:xcu200:-fsgd2104:-2-e 
+Execute         get_default_platform 
+Execute         ap_part_info -data single -name xcu200-fsgd2104-2-e 
+Execute         ap_part_info -name xcu200-fsgd2104-2-e -data resources 
+Execute         ap_part_info -name xcu200-fsgd2104-2-e -data info 
+Execute         ap_part_info -name xcu200-fsgd2104-2-e -data info 
+Execute         config_chip_info -quiet -resource {SLICE 147780} {LUT 1182240} {FF 2364480} {DSP48E 6840} {BRAM 4320} {URAM 960} {SLR 3} 
+Execute         ap_part_info -name xcu200-fsgd2104-2-e -data info 
+Execute         config_chip_info -quiet -speed medium 
+Command       add_library done; 0.13 sec.
+Execute       add_library xilinx/virtexuplus/virtexuplus_fpv7 
+Execute         get_default_platform 
+INFO: [HLS 200-10] Setting target device to 'xcu200-fsgd2104-2-e'
+Execute       ap_part_info -name xcu200-fsgd2104-2-e -data info 
+Execute       get_default_platform 
+Command     set_part done; 3.18 sec.
+Execute     ap_part_info -data single -name xcu200-fsgd2104-2-e 
+Execute     ap_part_info -name xcu200-fsgd2104-2-e -data resources 
+Execute     ap_part_info -name xcu200-fsgd2104-2-e -data info 
+Execute     ap_part_info -name xcu200-fsgd2104-2-e -data info 
+Execute     config_chip_info -quiet -resource {SLICE 147780} {LUT 1182240} {FF 2364480} {DSP48E 6840} {BRAM 4320} {URAM 960} {SLR 3} 
+Execute     ap_part_info -name xcu200-fsgd2104-2-e -data info 
+Execute     config_chip_info -quiet -speed medium 
+Command   open_solution done; 3.69 sec.
+Execute   set_part xcu200-fsgd2104-2-e 
+Execute     ap_part_info -name xcu200-fsgd2104-2-e -data single -quiet 
+Execute     ap_part_info -name xcu200-fsgd2104-2-e -data info 
+Execute     add_library xilinx/virtexuplus/virtexuplus:xcu200:-fsgd2104:-2-e 
+Execute       get_default_platform 
+Execute       ap_part_info -data single -name xcu200-fsgd2104-2-e 
+Execute       ap_part_info -name xcu200-fsgd2104-2-e -data resources 
+Execute       ap_part_info -name xcu200-fsgd2104-2-e -data info 
+Execute       ap_part_info -name xcu200-fsgd2104-2-e -data info 
+Execute       config_chip_info -quiet -resource {SLICE 147780} {LUT 1182240} {FF 2364480} {DSP48E 6840} {BRAM 4320} {URAM 960} {SLR 3} 
+Execute       ap_part_info -name xcu200-fsgd2104-2-e -data info 
+Execute       config_chip_info -quiet -speed medium 
+Command     add_library done; 0.12 sec.
+Execute     add_library xilinx/virtexuplus/virtexuplus_fpv7 
+Execute       get_default_platform 
+Execute     ap_part_info -name xcu200-fsgd2104-2-e -data info 
+Execute     get_default_platform 
+Command   set_part done; 0.27 sec.
+Execute   create_clock -period 10 -name default 
+Execute   csynth_design 
+Execute     get_config_compile -dump_cfg 
+Execute     get_config_compile -effort 
+Execute     get_config_compile -enable_clang39 
+Execute     get_config_compile -g 
+Execute     get_config_compile -ng 
+Execute     get_config_compile -opt_fp 
+Execute     get_config_compile -skip_cdt 
+Execute     get_config_compile -skip_syncheck 
+Execute     get_config_compile -skip_transform 
+Execute     get_config_compile -keep_printf 
+Execute     elaborate -effort=medium -skip_syncheck=0 -keep_printf=0 -skip_cdt=0 -skip_transform=0 -ng=0 -g=0 -opt_fp=0 -from_csynth_design=1 
+Execute       get_config_schedule -relax_ii_for_timing 
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+Execute       get_config_schedule -suppress_dependence_error_break 
+WARNING: [HLS 200-40] Cannot find source file HLS_MIPS_module_RF/solution1/.autopilot/db/MipsProcessor.cpp; skipping it.
+WARNING: [HLS 200-40] Cannot find source file HLS_MIPS_module_RF/solution1/.autopilot/FetchStage.cpp; skipping it.
+INFO: [HLS 200-10] Analyzing design file 'HLS_MIPS_module_RF/solution1/WriteBack.cpp' ... 
+INFO-FLOW: Compiling one TU...
+Execute       is_m_axi_addr64 
+INFO-FLOW: Handling HLS_MIPS_module_RF/solution1/WriteBack.cpp as C++
+Execute       ap_part_info -name xcu200-fsgd2104-2-e -data info 
+Execute       is_encrypted HLS_MIPS_module_RF/solution1/WriteBack.cpp 
+Execute       ap_part_info -name xcu200-fsgd2104-2-e -data info 
+INFO-FLOW: Running: GCC PP
+INFO-FLOW: Source preprocessing
+Execute       clang  -fno-limit-debug-info -gcc-toolchain "/tools/Xilinx/Vivado/2019.2/lnx64/tools/gcc" -hls  -fno-exceptions  -D__llvm__  -E "HLS_MIPS_module_RF/solution1/WriteBack.cpp"     -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "/tools/Xilinx/Vivado/2019.2/common/technology/autopilot" -I "/tools/Xilinx/Vivado/2019.2/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E2__  -o "/home/inje/workspace/HLS_MIPS_module_RF/solution1/.autopilot/db/WriteBack.pp.0.cpp" 
+INFO-FLOW: exec /tools/Xilinx/Vivado/2019.2/lnx64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain /tools/Xilinx/Vivado/2019.2/lnx64/tools/gcc -hls -fno-exceptions -D__llvm__ -E HLS_MIPS_module_RF/solution1/WriteBack.cpp -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /tools/Xilinx/Vivado/2019.2/common/technology/autopilot -I /tools/Xilinx/Vivado/2019.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E2__ -o /home/inje/workspace/HLS_MIPS_module_RF/solution1/.autopilot/db/WriteBack.pp.0.cpp
+WARNING: [HLS 200-40] HLS_MIPS_module_RF/solution1/WriteBack.cpp:5:10: fatal error: 'RegisterFile.h' file not found
+#include "RegisterFile.h"
+         ^
+1 error generated.
+Command       clang done; error code: 2; 2.5 sec.
+Command     elaborate done; error code: 2; 2.62 sec.
+Command   csynth_design done; error code: 2; 2.63 sec.
+Command ap_source done; error code: 1; 6.61 sec.
+Execute cleanup_all 

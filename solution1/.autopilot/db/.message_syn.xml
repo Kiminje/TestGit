@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Messages>
+	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_631" tag="SCHEDULE" content="Option &apos;relax_ii_for_timing&apos; is enabled, will increase II to preserve clock frequency constraints."/>
+	<Message severity="WARNING" prefix="[HLS 200-40]" key="HLS_40_1310" tag="" content="Cannot find source file HLS_MIPS_module_RF/solution1/.autopilot/db/MipsProcessor.cpp; skipping it."/>
+	<Message severity="WARNING" prefix="[HLS 200-40]" key="HLS_40_1310" tag="" content="Cannot find source file HLS_MIPS_module_RF/solution1/.autopilot/FetchStage.cpp; skipping it."/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1312" tag="" content="Analyzing design file &apos;HLS_MIPS_module_RF/solution1/WriteBack.cpp&apos; ..."/>
+	<Message severity="WARNING" prefix="[HLS 200-40]" key="HLS_40_1378" tag="" content="HLS_MIPS_module_RF/solution1/WriteBack.cpp:5:10: fatal error: &apos;RegisterFile.h&apos; file not found
+#include &quot;RegisterFile.h&quot;
+         ^
+1 error generated."/>
+</Messages>
